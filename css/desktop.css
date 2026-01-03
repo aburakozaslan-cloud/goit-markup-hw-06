@@ -1,0 +1,99 @@
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        
+    }
+
+    .page-header {
+        padding: 24px 156px;
+    }
+
+    .header-adress {
+        flex-direction: row;
+        gap: 40px;
+        margin-left: 332px;
+    }
+
+    .navbar {
+        margin-left: 76px;
+    }
+
+    .navbar-1.current::after {
+        bottom: -25px;
+    }
+
+    .hero {
+        padding: 188px 472px;
+        gap: 48px;
+    }
+
+.overlay {
+
+display: initial;
+
+}
+
+    .page-title {
+        padding-bottom: 48px;
+    }
+
+    .icon-1 {
+        display: initial;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        margin-bottom: 8px;
+        padding: 24px 100px;
+        background-color: #f4f4fd;
+    }
+
+    .section-services {
+        padding: 120px 156px;
+    }
+
+    .section-services ul {
+        flex-wrap: nowrap;
+    }
+
+    h3 {
+        color: #2e2f42;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 500;
+    }
+
+    .section-portfolio ul {
+        gap: 48px 24px;
+    }
+
+    .section-portfolio {
+        padding: 120px 156px;
+    }
+
+    .section-portfolio li {
+        flex-basis: calc((100% - 48px) / 3);
+    }
+
+    .site-footer {
+        flex-wrap: nowrap;
+        padding: 100px 159px 100px 156px;
+        align-items: start;
+    }
+
+    .wrap-tablet {
+        gap: 120px;
+    }
+
+    .form-element {
+
+        gap: 24px;
+    }
+
+    .site-footer {
+
+        gap: 80px;
+
+    }
+
+}
